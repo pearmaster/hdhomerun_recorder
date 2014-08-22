@@ -16,17 +16,10 @@ Description:
 INSTALL:
 ========
     1. Install python if you don't have it already
-    2. Install apscheduler from here. The old version of apscheduler has
-        some issues, so be sure to install the latest V2 version.
-        (https://bitbucket.org/agronholm/apscheduler)
+    2. Install apscheduler, do "pip install 'apscheduler>=2.1,<3'"
     3. Install this package.
-       If you have "pip", do "pip install hdhomerun-recorder"
-       			OR
-       If you have "easy_install". do "easy_install install hdhomerun-recorder"
-       			OR
-       You can manually download the source from PyPI
-       (https://pypi.python.org/pypi/hdhomerun-recorder), extract and
-       then install it using: "python setup.cfg install"
+       Do "pip install hdhomerun-recorder" to get upstream package
+       Or git clone this fork and install any modified source
 
     4. Create config-file
        a) Run /usr/bin/hdhomerun_recorder_setup /etc/hdhomerun_recorder/config-file
